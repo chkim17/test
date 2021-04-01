@@ -1,23 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
-      #grid{
-        border:5px solid pink;
-        display:grid;
-        grid-template-columns:2fr 1fr;
-      }
-      div{
-        border:5px solid gray;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="grid">
-      <div>NAVIGATION</div>
-      <div>ARTICLE</div>
-    </div>
-  </body>
+<head>
+  <title>Dear Eunseon</title>
+  <meta charset="utf-8">
+  <style>
+    h1{
+      font-size: 45px;
+    }
+    h2{
+      border-top: 1px gray solid;
+      padding: 10px;
+    }
+    ul{
+      border-top: 1px gray solid;
+      padding-top: 40px;
+      font-size: 20px;
+    }
+    input{
+      padding: 20px;
+    }
+    .night_day{
+      background: pink;
+      font-size: 25px;
+      float: right;
+    }
+    div{
+      font-size:25px;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+<body id="target">
+  <br><br>
+  <input class="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+  ">
+  <h1>Eunseon♥♡</h1>
+  <br><br>
+  <h2>2021.4.2</h2>
+  <div><p>
+  은선 씨 요즘 어떻게 지내세요?? 은선 씨가 보고 싶어요.
+  </p></div><br>
+  <ul>
+    <li><strong><a href="view-all.html">View all</a></strong></li>
+    <br><br>
+    <li><strong><a href="202103.html">March</a></strong></li>
+    <br><br>
+    <li><strong><a href="202104.html">April</a></strong></li>
+  </ul>
+</body>
 </html>
